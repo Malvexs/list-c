@@ -19,7 +19,7 @@ void remover_elemento(struct lista *plista, void *tormv);
 int main(){
 
     struct lista lista_;           // criando lista
-    inicializa_lista(&lista_);     //inicializa com NULL para não ter erros
+    inicializa_lista(&lista_);     //inicializa 
 
     inserir_elemento(&lista_, 15);  // add elementos
     inserir_elemento(&lista_, 16);
